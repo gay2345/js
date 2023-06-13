@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="/hw 4/pon.js"></script>
-    <form method="POST" action="https://jsonplaceholder.typicode.com/users">
-        <label>
-          <span>Имя:</span>
-          <input type="text" name="firstName">
-        </label>
-        <label>
-          <span>Фамилия:</span>
-          <input type="text" name="lastName">
-        </label>
-        <button type="submit">Отправить</button>
-      </form>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="/hw-4/main.js"></script>
+
 </body>
 </html>
